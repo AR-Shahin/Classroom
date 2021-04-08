@@ -82,7 +82,7 @@
             var	rows = '';
             var i = 0;
             $.each( data, function( key, value ) {
-                value.id
+                
                 rows = rows + '<tr>';
                 rows = rows + '<td>'+ ++i +'</td>';
                 rows = rows + '<td>'+value.name+'</td>';
