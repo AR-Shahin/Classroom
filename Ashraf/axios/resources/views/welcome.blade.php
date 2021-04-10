@@ -82,7 +82,7 @@
             var	rows = '';
             var i = 0;
             $.each( data, function( key, value ) {
-                
+
                 rows = rows + '<tr>';
                 rows = rows + '<td>'+ ++i +'</td>';
                 rows = rows + '<td>'+value.name+'</td>';
@@ -134,8 +134,8 @@
         //delete currency
         $('body').on('click','#deleteRow',function (e) {
             e.preventDefault();
- let id = $(this).data('id')
-            let del = url + '/category/' + id
+            let id = $(this).data('id')
+           // let del = url + '/category/' + id
            // console.log(del)
             const swalWithBootstrapButtons = Swal.mixin({
                 customClass: {
@@ -155,7 +155,7 @@
             }).then((result) => {
                 if (result.isConfirmed) {
 
-              axios.delete(del).then(function(r){
+              axios.delete(`${url}/category/${id}`).then(function(r){
                 getAllData();
                  swalWithBootstrapButtons.fire(
                             'Deleted!',
