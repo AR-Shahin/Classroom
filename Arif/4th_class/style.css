@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: fixed;
+   bottom: 1%;
+   right: 1%;
+}
+.div2{
+    height: 100px;
+    width: 150px;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+}
+
+.div3{
+    width: 500px;
+    height: 200px;
+    background: green;
+    position: relative;
+    opacity: 1;
+}
+.div4{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background:red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    background: blue;
+    height: 20px;
+    width: 40px;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: red;
+    transition: .6s;
+}
+.btn:focus{
+    background:pink;
+}
