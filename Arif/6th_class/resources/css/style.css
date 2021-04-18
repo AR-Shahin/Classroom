@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block
+}
+/* Navbar*/
+nav{
+    background-color: #F6F9F9;
+    padding: 20px 0;
+}
+
+/*hero section*/
+#hero_ection{
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section .content{
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
+.hero-section .content h1{
+    font-size: 56px;
+    text-transform: uppercase;
+}
+.hero-section  p{
+    margin: 5px 0;
+    font-weight: 100;
+}
+.hero-section  .hero-btn{
+    border : 1.5px solid #3498db;
+    padding: 10px 30px ;
+    color: #fff;
+    margin-top: 20px;
+}
+.hero-section i{
+    font-size: 25px;
+    margin-top: 35px;
+    font-weight: 400;
+}
