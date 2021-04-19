@@ -15,6 +15,31 @@ body{
     padding: 15px 25px;
     display: inline-block
 }
+section{
+    padding: 45px 0;
+}
+
+/************* column **************/
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col25{
+	flex-basis: 25%;
+}
+
+.col30{
+	flex-basis: 30%;
+    margin: 0 10px;
+}
+ 
+ .col50{
+	flex-basis: 50%;
+}
+.col75{
+	flex-basis: 75%;
+}
 /* Navbar*/
 nav{
     background-color: #F6F9F9;
@@ -32,8 +57,8 @@ nav{
 }
 
 .hero-section .content{
-    padding-top: 140px;
-    padding-bottom: 180px;
+    padding-top: 120px;
+    padding-bottom: 110px;
 }
 .hero-section .content h1{
     font-size: 56px;
@@ -53,4 +78,101 @@ nav{
     font-size: 25px;
     margin-top: 35px;
     font-weight: 400;
+}
+/*third section */
+.third-section{
+    text-align: center;
+    background: #F6F9F9;
+}
+.third-section h2{
+    font-size: 26px;
+    color:  #2d3950;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.third-section p{
+    color: #999;
+    line-height: 1.5;
+}
+
+/*fourth-section */
+.fourth-section{
+    text-align: center;
+}
+.fourth-section .icon-box{
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    border-radius: 5px;
+    text-align: center;
+    margin:  0 auto;
+    margin-bottom: 10px;
+}
+.fourth-section .icon-box i{
+    font-size: 26px;
+    padding: 15px;
+    color: #fff;
+}
+.fourth-section h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #2d3950;
+}
+.fourth-section p{
+    font-weight: 400;
+    margin-top: 10px;
+    color: #999;
+}
+/*showcase section*/
+.showcase{
+    background: #F6F9F9;
+    text-align: center;
+}
+.showcase h2{
+    font-weight: 400;
+    font-size: 26px;
+       color: #2d3950;
+}
+.showcase p{
+    color: #999;
+    margin-top: 10px;
+}
+
+.showcase .showcase-img{
+    margin-top: 30px;
+}
+.showcase .showcase-img .img-box{
+    position: relative;
+}
+.showcase .showcase-img .img-box img{
+    width: 100%;
+}
+.showcase .showcase-img .img-box .hover-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 169, 245, 0.85);
+    transform: scale(0);
+    transition: .6s;
+}
+.showcase .showcase-img .img-box .hover-box ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.showcase .showcase-img .img-box .hover-box ul li{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+    color: #fff;
+}
+.showcase .showcase-img .img-box:hover  .hover-box{
+    transform: scale(1);
 }
