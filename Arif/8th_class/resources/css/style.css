@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block
+}
+section{
+    padding: 45px 0;
+}
+.btn{
+    padding: 10px 25px;
+}
+/************* column **************/
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col20{
+	flex-basis: 25%;
+}
+.col25{
+	flex-basis: 25%;
+}
+
+.col30{
+	flex-basis: 30%;
+    margin: 0 10px;
+}
+ 
+ .col50{
+	flex-basis: 50%;
+}
+.col75{
+	flex-basis: 75%;
+}
+.col80{
+	flex-basis: 75%;
+}
+
+/*header*/
+header{
+    background: #8F5AAD;
+    color: #fff;
+}
+header nav{
+    padding: 20px 0;
+}
+header nav .logo{
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.menu li{
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 3px;
+    transition: .6s;
+}
+.menu li:hover{
+    background-color: black;
+}
+#hero_section{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+#hero_section h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+#hero_section .hero-btn{
+    background: #e67e22;
+    margin-top: 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: .2s;
+}
+#hero_section .hero-btn:hover{
+    background-color: transparent;
+       border: 2px solid #e67e22;
+}
+#service_section{
+    text-align: center;
+    background: #3DBC9C;
+}
+#service_section h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #fff;
+}
+#service_section  p{
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.service-box{
+    margin-top: 20px;
+}
+.service-box img{
+    width: 80px;
+    margin: 0 auto;
+}
+.service-box h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
