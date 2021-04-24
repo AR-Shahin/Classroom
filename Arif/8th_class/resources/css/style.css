@@ -127,3 +127,52 @@ header nav .logo{
     margin: 10px 0;
     color: #fff;
 }
+
+/*social icons*/
+
+.social_icons {
+    display: flex;
+}
+.social_icons li{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    background: teal;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .6s;
+}
+.social_icons li a{
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+}
+.social_icons li:nth-child(1):hover{
+    background: red;
+    transform: rotate(180deg);
+}
+.social_icons li:nth-child(2):hover{
+    background: #55acee;
+}
+.social_icons li:nth-child(3):hover{
+    background: #0077B5;
+}
+.social_icons li:nth-child(4):hover{
+    background: #bd081c;
+}
+.our_class{
+    height: 100px;
+    width: 100px;
+    background: red;
+    /*transform: rotate(50deg);*/
+    /*transform: skewY(20deg);*/
+    transition: .6s;
+   /* box-shadow: 10px 5px 15px blue;*/
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   
+}
+.our_class:hover{
+    /*transform: scale(2);*/
+}
