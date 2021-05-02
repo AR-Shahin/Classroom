@@ -1,0 +1,19 @@
+@media only screen and (max-width:360px){
+    body{
+        background: pink;
+    }
+    h1{
+        font-size: 100px;
+    }
+    .col25{
+	flex-basis: 100%;
+}
+}
+
+
+@media (min-width:361px) and (max-width:400px) {
+    body{
+        background: blue;
+    }
+}
+

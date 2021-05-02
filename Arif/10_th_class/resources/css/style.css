@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+h1{
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.test{
+    height: 80px;
+    width: 80px;
+    background: red;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    animation-name: bgchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.animation2{
+    height: 100px;
+    width: 100px;
+    background: teal;
+    animation-name: arif;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.animation3{
+    height: 100px;
+    width: 100px;
+    background: teal;
+    margin-left: 100px;
+    animation-name: moveAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bgchange{
+    0%{background: blue;}
+    10%{background: red;}
+     50%{background: yellow;}
+      80%{background: green;}
+       100%{background: black;}
+}
+@keyframes bgchange{
+    0%{background: blue;}
+    10%{background: red;}
+     50%{background: yellow;}
+      80%{background: green;}
+       100%{background: black;}
+}
+
+@keyframes arif{
+    0%{
+        transform: scale(1.5);
+        background: #000;
+    }
+    25%{
+        transform: scale(1.7);
+        background: red;
+    }
+    50%{
+        transform: scale(1.9);
+        background: green;
+    }
+    70%{
+        transform: scale(2);
+        background: yellow;
+    }
+    100%{
+        transform: scale(1);
+        background: pink;
+    }
+}
+
+@keyframes moveAnimation{
+    0%{
+        transform: rotate(120deg);
+        background: #000;
+    }
+    25%{
+        transform: rotate(150deg);
+        background: red;
+    }
+    50%{
+        transform: rotate(180deg);
+        background: green;
+    }
+    70%{
+       transform: rotate(90deg);
+        background: yellow;
+    }
+    100%{
+        transform: rotate(220deg);
+        background: pink;
+    }
+}
