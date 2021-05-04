@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+.col1{
+    background: red;
+}
+.col2{
+ 
+    background: green;
+}
+.col3{
+    height: 100px;
+    background: blueviolet;
+}
+.col4{
+    height: 100px;
+    background: yellow;
+}
+.col5{
+    height: 100px;
+    background: black;
+}
+.col6{
+    height: 100px;
+    background: teal;
+}
+.col7{
+    height: 100px;
+    background: tomato;
+}
+.col1{
+    height: 100px;
+    background: red;
+}
+.col1{
+    height: 100px;
+    background: red;
+}
+.col1{
+    height: 100px;
+    background: red;
+}
