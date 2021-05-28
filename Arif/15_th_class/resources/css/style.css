@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/*common css*/
+h1,h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    padding: 40px 0;
+}
+/*navbar*/
+nav ul li .nav-link{
+    color: #2d3436;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .6s;
+    font-weight: 500;
+}
+nav ul li .nav-link:hover{
+    color: #3ED7CE;
+}
+
+/*hero section */
+#hero_section{
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-content{
+    padding: 250px 0;
+    text-align: center;
+    color: #fff;
+}
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-content .hero-btn{
+    border: 1px solid #3ED7CE;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*about-section*/
+.about-section{
+
+}
+.about-section h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.about-section .abt-btn{
+    border: 1px solid #3ED7CE;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #3ED7CE;
+}
+
+/*service_section*/
+#service_section{
+
+}
+.service_section h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.service_section .icon-box{
+    height: 80px;
+    width: 70px;
+    background: #3ED7CE;
+    border-radius: 5px;
+    text-align: center;
+}
+.service_section .icon-box i{
+    font-size: 25px;
+    padding: 28px;
+    color: #fff;
+}
+.service_section .hover{
+    transition: .6s;
+}
+.service_section .hover:hover{
+    border : 2px solid #fff;
+}
