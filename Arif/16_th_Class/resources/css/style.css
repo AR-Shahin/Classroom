@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+/*common css*/
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  padding: 40px 0;
+}
+
+/*navbar*/
+.ourNav {
+  padding: 20px 0;
+}
+/*hero section */
+
+#hero_section {
+  background-image: url("../img/hero.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.content_box {
+  padding-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+.img_box {
+  margin-top: 25px;
+}
+.hero-btn {
+  padding: 10px 30px;
+  border-radius: 25px;
+}
