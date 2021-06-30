@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Raleway", sans-serif;
+}
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#header{
+    margin-top: 50px;
+}
+.pads{
+    width: 100%;
+    background: rgba(236, 240, 241, 0.44);
+    display: flex;
+}
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1{
+    background: #16a085;
+}
+.pad2{
+    background: #27ae60;
+}
+.pad3{
+    background: #2980b9;
+}
+.pad4{
+    background: #8e44ad;
+}
+.pad5{
+    background: #f39c12;
+}
+.pad6{
+    background: #e74c3c;
+}
+
+.visual > div{
+    position: absolute;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1);
+    z-index: -1;  
+}
+
+@keyframes jump {
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50% {
+        bottom: 50%;
+        left: 50%;
+    }
+    100% {
+        bottom: 0%;
+        left: 80%;
+    }
+}
