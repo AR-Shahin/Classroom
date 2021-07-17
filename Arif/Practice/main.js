@@ -32,4 +32,10 @@ $(document).ready(function(){
         slidesToScroll: 3,
         
       });
+
+      $('.count').counterUp({
+        delay: 10,
+        time: 1000
+    });
+    
   });
