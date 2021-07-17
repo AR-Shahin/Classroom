@@ -21,4 +21,15 @@ $(document).ready(function(){
             }
         }
     });
+
+
+    $('.slick').slick({
+        autoplay: true,
+        arrows:false,
+        fade:true,
+        focusOnSelect:true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        
+      });
   });
