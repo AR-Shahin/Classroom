@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.custom {
+  position: relative;
+}
+.custom .prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.prevBtn {
+  left: 0;
+}
+.nextBtn {
+  right: 0;
+}
