@@ -33,9 +33,20 @@ $(document).ready(function(){
         
       });
 
-      $('.count').counterUp({
-        delay: 10,
-        time: 1000
+    // $('.count').counterUp({
+    //     delay: 10,
+    //     time: 1000
+    // });
+
+    // magnifine
+
+    $('.popup').magnificPopup({
+        type: 'image',
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
+        gallery: {
+            enabled: true
+        }
     });
     
   });
