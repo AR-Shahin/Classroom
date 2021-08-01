@@ -1,0 +1,273 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;  
+}
+.header{
+    background: #3F5C9A;
+    overflow: hidden;
+    padding: 8px 0;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+
+}
+.logo-area img{
+    width: 160px;
+    margin-top: 18px;
+}
+.login-area{
+    width: 70%;
+    float: left;
+    color: white;
+}
+.login-area form{
+    float: right;
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+    float: left; 
+    margin-right: 15px;
+}
+.login-area label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.login-area .login
+{
+    margin-right: 0;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 5px;
+}
+.login-area .password a{
+    text-decoration: none;
+    color: white;
+    font-size: 12 px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+    
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 3px 8px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+/*Start middle part*/
+
+.singnup-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+.left-area p{
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: 600;
+    width: 90%;
+}
+.left-area img{
+    width: 100%;
+    
+}
+.right-area{
+    width: 45%;
+    float: left;   
+}
+.right-area h2{
+    font-size: 32.5px;
+    color: #333;
+    margin: 0;
+}
+.right-area h4{
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0;
+    
+}
+.full-name{
+    overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.sure-name{
+    width: 48%;
+    float: left;
+}
+
+.birthdate{
+    overflow: hidden;
+}
+birthdate h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+.birth-date{
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left
+}
+/*.birth-link {
+    float: left;
+    width: 190px;
+    
+}
+.birth-link a {
+    font-size: 13px;
+    display: block;
+    line-height: 1px;
+    text-decoration: none;
+}*/
+
+.gender{
+    margin: 10px 0;
+}
+.gender lebel{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+
+.text-box{
+    margin-bottom: 20px
+}
+.text-box p{
+    font-size: 13px;
+    color: #777;
+    width: 80%;
+    
+}
+
+
+.text-box a{
+    text-decoration: none;
+    
+}
+.text-box a:hover{
+    text-decoration: underline;
+    
+}
+
+.btn input{
+    background: linear-gradient(#67ae55,#578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 0;
+    min-width: 194px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+.btn input :hover{
+    background: linear-gradient(#578843,#67ae55);
+    cursor: pointer;     
+}
+
+
+.footer-area {
+    padding-top: 30px 0;
+}
+
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area ul li{
+    display: inline;
+   
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+
+
+
+.footer-area ul li.active a{
+    color: #737373;
+}
+
+.footer-area .top ul li{
+    margin-right: 10px;
+}
+.footer-area .middle ul li{
+    margin-right: 10px;
+}
+.footer-area .top ul li,
+.footer-area .bottom ul li{
+    margin-right: 0;
+}
+
+.footer-area span{
+
+    color: #737373;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

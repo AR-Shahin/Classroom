@@ -87,7 +87,12 @@ form.addEventListener('submit',(e) => {
         let tbody = $('#tbody')
         tbody.appendChild(tr)
         $('#name').value = ''
-
+        let btn = $('.rmv_btn')
+        btn.addEventListener('click',function(){
+            let deleteRow = this.parentElement
+            print(deleteRow)
+            
+        });
 
 
    }

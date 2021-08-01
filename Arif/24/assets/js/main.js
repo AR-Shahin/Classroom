@@ -13,6 +13,7 @@ window.addEventListener('load', function(){
 
     // print(pads)
 
+    print(pads)
     pads.forEach(function(pad,index) {
         pad.addEventListener('click',function() {
             sounds[index].currentTime = 0
