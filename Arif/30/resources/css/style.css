@@ -1,0 +1,90 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.custom {
+  position: relative;
+}
+.custom .prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.prevBtn {
+  left: 0;
+}
+.nextBtn {
+  right: 0;
+} */
+
+/* vanilla tits */
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  margin: 2% 10%;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 15px 35px;
+  font-size: 19px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
