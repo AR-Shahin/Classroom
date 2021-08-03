@@ -23,15 +23,15 @@ $(document).ready(function(){
     });
 
 
-    $('.slick').slick({
-        autoplay: true,
-        arrows:false,
-        fade:true,
-        focusOnSelect:true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+    // $('.slick').slick({
+    //     autoplay: true,
+    //     arrows:false,
+    //     fade:true,
+    //     focusOnSelect:true,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3,
         
-      });
+    //   });
 
     // $('.count').counterUp({
     //     delay: 10,
