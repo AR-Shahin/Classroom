@@ -1,3 +1,19 @@
-#particles-js {
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Navbar */
+
+.our_navbar {
+  background: #2a67d1;
+}
+.our_navbar .nav-link {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
