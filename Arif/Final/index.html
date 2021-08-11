@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
     <!-- font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
@@ -18,6 +19,8 @@
    <link rel="stylesheet" href="./resources/css/magnific-popup.css">
    <!-- Animated Css -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <!-- animated headline -->
+   <link rel="stylesheet" href="./resources/css/jquery.animatedheadline.css">
     <!-- main css -->
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/responsive.css">
@@ -34,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse text-right" id="navbarSupportedContent" style="text-align: right;">
-            <ul class="navbar-nav text-right mx-auto mb-lg-0">
+            <ul class="navbar-nav text-right mb-lg-0" style="margin-left: auto;">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">About me</a>
               </li>
@@ -58,21 +61,42 @@
           </div>
         </div>
       </nav>
-      
+      <div id="particles-js"></div>
       <!-- Hero Section -->
-
       <section id="hero_section">
           <div class="container">
               <div class="row">
-                  <div class="col-12 col-md-6 col-lg-6">
-                      <div class="hero-content">
+                  <div class="col-12 col-md-6 col-lg-6 align-self-center">
+                      <div class="hero-content selector">
                           <p>Hello, I'm</p>
-                          <h1></h1>
+                          <h1>Md Arif Hossian</h1>
+                          <div id="animated_headline">
+                                <h2 class="ah-headline">
+                                    <span>I'm</span>
+                                    <span class="ah-words-wrapper">
+                                        <b class="is-visible">Web Developer</b>
+                                        <b>Graphic Designer</b>
+                                        <b>Programmer</b>
+                                    </span>
+                                </h2>
+                          </div>
+
+                          <ul id="social_icons">
+                            <li><a href="https://www.facebook.com/arshahin.111 " target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/Shahin85080084 " target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/AR-Shahin " target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCYxtDC_GVan9l1NFNthS3aQ " target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/anisur-rahman-shahin-31295b186/ " target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
                       </div>
                   </div>
+               <div class="col-12 col-md-6">
+                   <img src="./resources/img/hero.png" alt="" class="img-fluid img">
+               </div>
               </div>
           </div>
       </section>
+      <hr>
     <!-- End Navbar -->
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -90,7 +114,9 @@
 
     <!-- Partical -->
     <script src="./resources/js/particles.min.js"></script>
+    <script src="./resources/js/jquery.animatedheadline.min.js"></script>
     <!-- Custom JS -->
     <script src="./resources/js/main.js"></script>
+
   </body>
 </html>

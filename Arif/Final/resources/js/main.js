@@ -1,19 +1,35 @@
+// Animated Headline
+$('.selector').animatedHeadline({
+     //animationType: 'rotate-1'
+         //animationType: 'rotate-2',
+        //  animationType: 'type'
+        //animationType: 'loading-bar'
+        animationType: 'slide'
+      //   animationType: 'clip'
+      // animationType: 'zoom'
+      // animationType: 'rotate-3'
+      // animationType: 'scale'
+      //animationType: 'push'
+});
+
+
+
 particlesJS('particles-js',
   
   {
     "particles": {
       "number": {
-        "value": 500,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": '#2ecc71'
+        "value": ["#f1c40f","#e74c3c","#d35400","#182C61","#6D214F",'#2C3A47','#EAB543','#ff3838','#fff200']
       },
       "shape": {
-        "type": ["circle"],
+        "type": ["circle",'polygon','stroke'],
         "stroke": {
           "width": 0,
           "color": "#000000"
