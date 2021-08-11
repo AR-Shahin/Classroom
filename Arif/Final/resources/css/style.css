@@ -6,6 +6,15 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+ul li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Itim", cursive;
+}
 /* Navbar */
 
 .our_navbar {
@@ -16,4 +25,107 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
+}
+#particles-js {
+  position: absolute;
+  height: 95vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* hero_section */
+
+#hero_section {
+  margin-top: 100px;
+  z-index: 2;
+}
+
+#social_icons {
+  display: flex;
+  margin-left: -25px;
+}
+#social_icons li {
+  /* display: inline-block; */
+  background: #000;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+#social_icons li a {
+  padding: 15px;
+  line-height: 2.2;
+  font-size: 20px;
+  color: #fff;
+}
+.img {
+  animation-name: HERO_ANIMATION;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+/*ANIMATIONS*/
+@keyframes OUR_ANIMATION {
+  0% {
+    transform: rotate(120deg);
+  }
+  10% {
+    transform: rotate(150deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(220deg);
+  }
+  65% {
+    transform: rotate(320deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+  85% {
+    transform: rotate(220deg);
+  }
+  95% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+@keyframes HERO_ANIMATION {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  20% {
+    transform: scale(0.8);
+  }
+  30% {
+    transform: scale(0.7);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  80% {
+    transform: scale(0.8);
+  }
+  90% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.98);
+  }
 }
