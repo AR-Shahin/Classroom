@@ -184,10 +184,10 @@ hr {
   color: #2c62d2;
   margin-left: 370px;
 }
-.parent {
+/* .parent {
   position: relative;
-}
-.child {
+} */
+/* .child {
   position: absolute;
   margin-left: 375px;
   background-color: #dddddd;
@@ -196,7 +196,7 @@ hr {
   top: 20%;
   left: 32%;
   padding: 2px;
-}
+} */
 .paragraph .para_nav .nav-link {
   color: #2196f3;
   border-radius: 4px;
@@ -222,6 +222,7 @@ hr {
 .services {
   background-color: #fdfaea;
   text-align: center;
+  width: 100%;
 }
 .heading {
   color: #2c62d2;
@@ -305,7 +306,7 @@ hr {
 }
 
 /*programming section*/
-.programing-section .child3 {
+/* .programing-section .child3 {
   position: absolute;
   margin-left: 375px;
   background-color: #dddddd;
@@ -314,7 +315,7 @@ hr {
   top: 18%;
   left: 37%;
   padding: 2px;
-}
+} */
 
 /*Gallery secton*/
 .gallery-section .g-child {
@@ -350,7 +351,10 @@ hr {
   color: #fff;
   font-size: 18px;
 }
-
+.counter-section .icon-box {
+  padding: 25px 0;
+  color: #fff;
+}
 /*contact section*/
 .contact-section .c-child {
   position: absolute;

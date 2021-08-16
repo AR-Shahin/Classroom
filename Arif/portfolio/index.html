@@ -29,7 +29,8 @@
     <!-- custom -->
     <link rel="stylesheet" href="./resources/css/style.css">
     
-
+    <!-- responsive -->
+    <link rel="stylesheet" href="./resources/css/responsive.css">
     <title>Portfolio Website</title>
   </head>
   <body>
@@ -39,7 +40,9 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./resources/images/arifLogo.png" alt="" class="logo" height="60px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
+          <span class="navbar-toggler-icon ">
+              <i class="fa fa-bars text-light"></i>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" style="margin-left: auto;">
@@ -126,13 +129,11 @@
           </div>
           <div class="col-12 col-md-6 col-lg-6">
             
-              <div class="parent">
+              <!-- <div class="parent">
                 <h1 class="about-head">About Me</h1>
                <p class="about-head">My introduction</p>
                <div class="child"></div>
-               
-
-              </div>
+              </div> -->
               <div class="paragraph">
                 <nav class="navbar navbar-expand-lg para_nav " style="margin-left:  -23px; margin-top: -33px;">
                   <div class="container-fluid">
@@ -172,16 +173,16 @@
      <!-- services section -->
     <section class="services" id="Service_section">
       <div class="container ">
-        <div class="row text-center ">
+        <!-- <div class="row text-center ">
           <div class="parent">
             <h1 class="heading mt-3">My services</h1>
             <p class="heading">What i will serve for you!</p>
             <div class="child2"> </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="row">
-          <div class="col-12 col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
+        <div class="row w-100">
+          <div class="col-12 mb-2 col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
             <div class="card text-center" style="background-color: #CBF4DD;">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-design.65e86a5.svg" class="img-fluid img2" alt="...">
@@ -194,7 +195,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="col-12 col-md-4 mb-2 animate__animated animate__fadeInUp animate__delay-2s">
             <div class="card text-center" style="background-color: #FEDEC7;">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-development.3c47f06.svg" class="img-fluid img2" alt="...">
@@ -351,18 +352,19 @@
     </section>
      <!-- programming section -->
     <section class="programing-section" id="Programming_section" style="background-color: #FFE1F4;">
-      <div class="container pb-5">
-        <div class="row text-center ">
+      <div class="container pb-5 pt-5">
+        <!-- <div class="row text-center ">
           <div class="parent">
             <h1 class="heading mt-3">My Programming Code</h1>
             <p class="heading">All Programming Code</p>
             <div class="child3"> </div>
           </div>
-        </div>
+        </div> -->
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
+                    <h4>sssss</h4>
                     <div class="accordion accordion-flush" >
-                        <div class="accordion-item" style="background: transparent;">
+                        <div class="accordion-item" >
                           <h2 class=" text-center">
                             <button class=" collapsed btn  btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#algo" aria-expanded="false" aria-controls="algo">
                              Ds and Algo <i class="fa fa-arrow-alt-circle-down"></i>
@@ -375,8 +377,9 @@
                       </div>
                 </div>
 
-                <div class="col-6">
-                    <div class="accordion accordion-flush" >
+                <div class="col-12 col-md-6">
+                    <h4>sssss</h4>
+                    <!-- <div class="accordion accordion-flush" >
                         <div class="accordion-item" style="background: transparent;">
                           <h2 class=" text-center">
                             <button class=" collapsed btn  btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#code" aria-expanded="false" aria-controls="code">
@@ -387,7 +390,7 @@
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                 </div>
             </div>
         
@@ -459,8 +462,8 @@
     <!-- counter-section -->
     <section class="counter-section " style="background-color: #245CD1;">
       <div class="container">
-        <div class="row text-center justify-content-center">
-          <div class="col-12 col-md-3 col-lg-3 ">
+        <div class="row text-center ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="far fa-smile"></i>
             </div>
@@ -470,9 +473,9 @@
 
             </div>
             <p class="mb-5">Happy Client</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="fas fa-briefcase"></i>
             </div>
@@ -482,9 +485,9 @@
 
             </div>
             <p class="mb-5">Total Projects Done</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="fas fa-tasks-alt"></i>
             </div>
@@ -494,9 +497,9 @@
 
             </div>
             <p class="mb-5">Queue Projects</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="far fa-handshake"></i>
             </div>
@@ -506,8 +509,35 @@
 
             </div>
             <p class="mb-5">Services</p>
-          </div>
-
+          </div> -->
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
         </div>
       </div>
     </section>

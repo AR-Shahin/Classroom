@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px) {
+  .logo {
+    margin-left: 0px;
+  }
+  #hero_section {
+    margin-top: 150px;
+  }
+  .img {
+    width: 25%;
+    margin-left: 15px;
+  }
+  .owl-carousel .owl-item img {
+    width: 300px;
+  }
+  .pic {
+    width: 300px;
+  }
+  #particles-js {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 575px) {
+}
