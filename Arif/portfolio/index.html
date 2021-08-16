@@ -29,7 +29,8 @@
     <!-- custom -->
     <link rel="stylesheet" href="./resources/css/style.css">
     
-
+    <!-- responsive -->
+    <link rel="stylesheet" href="./resources/css/responsive.css">
     <title>Portfolio Website</title>
   </head>
   <body>
@@ -39,27 +40,29 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./resources/images/arifLogo.png" alt="" class="logo" height="60px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon ">
+              <i class="fa fa-bars text-light"></i>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" style="margin-left: auto;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              <a class="nav-link active" aria-current="page" href="#about_section">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Service</a>
+              <a class="nav-link " aria-current="page" href="#Service_section">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+              <a class="nav-link " aria-current="page" href="#Portfolio_section">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Programming</a>
+              <a class="nav-link " aria-current="page" href="#Programming_section">Programming</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Gallery</a>
+              <a class="nav-link " aria-current="page" href="#Gallery_section">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Contac</a>
+              <a class="nav-link " aria-current="page" href="#Contact_section">Contact</a>
             </li>
            
             
@@ -77,8 +80,8 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6 align-self-center">
             <div class="hero-content selector">
-              <p>Hello... I'm</p>
-              <h1>Md. Arif Hossain</h1>
+              <p  class="animate__animated animate__backInLeft">Hello... I'm</p>
+              <h1 class="animate__animated animate__backInRight">Md. Arif Hossain</h1> 
              <div id="animated_headline">
               <h2 class="ah-headline">
                <span class="ah-words-wrapper " style="color: blueviolet; font-size: 20px; text-align: center;">
@@ -111,7 +114,7 @@
                      
     <hr>
     <!-- My about section -->
-    <section class="slider_section mt-5">
+    <section class="slider_section mt-5" id="about_section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
@@ -126,13 +129,11 @@
           </div>
           <div class="col-12 col-md-6 col-lg-6">
             
-              <div class="parent">
+              <!-- <div class="parent">
                 <h1 class="about-head">About Me</h1>
                <p class="about-head">My introduction</p>
                <div class="child"></div>
-               
-
-              </div>
+              </div> -->
               <div class="paragraph">
                 <nav class="navbar navbar-expand-lg para_nav " style="margin-left:  -23px; margin-top: -33px;">
                   <div class="container-fluid">
@@ -170,18 +171,18 @@
       </div>
     </section>
      <!-- services section -->
-    <section class="services">
+    <section class="services" id="Service_section">
       <div class="container ">
-        <div class="row text-center ">
+        <!-- <div class="row text-center ">
           <div class="parent">
             <h1 class="heading mt-3">My services</h1>
             <p class="heading">What i will serve for you!</p>
             <div class="child2"> </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="row">
-          <div class="col-12 col-md-4">
+        <div class="row w-100">
+          <div class="col-12 mb-2 col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
             <div class="card text-center" style="background-color: #CBF4DD;">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-design.65e86a5.svg" class="img-fluid img2" alt="...">
@@ -194,7 +195,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 mb-2 animate__animated animate__fadeInUp animate__delay-2s">
             <div class="card text-center" style="background-color: #FEDEC7;">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/web-development.3c47f06.svg" class="img-fluid img2" alt="...">
@@ -207,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 animate__animated animate__fadeInRight animate__delay-2s">
             <div class="card text-center" style="background-color: #CBF4DD;">
               <div class="img-box mt-3">
                 <img src="./resources/images/about/wordpress.1a3cdb8.svg" class="img-fluid img2" alt="...">
@@ -268,7 +269,7 @@
     </section>
     <!-- portfolio section -->
 
-    <section class="portfolio">
+    <section class="portfolio" id="Portfolio_section">
       <div class="container">
         <div class="row text-center ">
           <div class="parent">
@@ -350,19 +351,20 @@
 
     </section>
      <!-- programming section -->
-    <section class="programing-section" style="background-color: #FFE1F4;">
-      <div class="container pb-5">
-        <div class="row text-center ">
+    <section class="programing-section" id="Programming_section" style="background-color: #FFE1F4;">
+      <div class="container pb-5 pt-5">
+        <!-- <div class="row text-center ">
           <div class="parent">
             <h1 class="heading mt-3">My Programming Code</h1>
             <p class="heading">All Programming Code</p>
             <div class="child3"> </div>
           </div>
-        </div>
+        </div> -->
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
+                    <h4>sssss</h4>
                     <div class="accordion accordion-flush" >
-                        <div class="accordion-item" style="background: transparent;">
+                        <div class="accordion-item" >
                           <h2 class=" text-center">
                             <button class=" collapsed btn  btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#algo" aria-expanded="false" aria-controls="algo">
                              Ds and Algo <i class="fa fa-arrow-alt-circle-down"></i>
@@ -375,8 +377,9 @@
                       </div>
                 </div>
 
-                <div class="col-6">
-                    <div class="accordion accordion-flush" >
+                <div class="col-12 col-md-6">
+                    <h4>sssss</h4>
+                    <!-- <div class="accordion accordion-flush" >
                         <div class="accordion-item" style="background: transparent;">
                           <h2 class=" text-center">
                             <button class=" collapsed btn  btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#code" aria-expanded="false" aria-controls="code">
@@ -387,7 +390,7 @@
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                 </div>
             </div>
         
@@ -395,7 +398,7 @@
     </section>
 
     <!-- Gallery -->
-    <section class="gallery-section">
+    <section class="gallery-section" id="Gallery_section">
     
           <div class="container ">
             <div class="row text-center ">
@@ -459,60 +462,87 @@
     <!-- counter-section -->
     <section class="counter-section " style="background-color: #245CD1;">
       <div class="container">
-        <div class="row text-center justify-content-center">
-          <div class="col-12 col-md-3 col-lg-3 ">
+        <div class="row text-center ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="far fa-smile"></i>
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="counter" data-num="100"></h4>
 
             </div>
             <p class="mb-5">Happy Client</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="fas fa-briefcase"></i>
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="counter" data-num="100"></h4>
 
             </div>
             <p class="mb-5">Total Projects Done</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="fas fa-tasks-alt"></i>
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="counter" data-num="100"></h4>
 
             </div>
             <p class="mb-5">Queue Projects</p>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-3 col-lg-3 ">
+          <!-- <div class="col-12 col-md-3 col-lg-3 ">
             <div class="emoji-box mt-5">
               <i class="far fa-handshake"></i>
             </div>
             <div class="counter-box">
 
-              <h4 class="test" data-num="100"></h4>
+              <h4 class="counter" data-num="100"></h4>
 
             </div>
             <p class="mb-5">Services</p>
-          </div>
-
+          </div> -->
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
+    <div class="col-12 col-md-3 mb-2">
+        <div class="icon-box">
+            <i class="far fa-smile"></i>
+            <h4 class="counter" data-num="100"></h4>
+            <h5>Happy Client</h5>
+        </div>
+    </div>
         </div>
       </div>
     </section>
     <!-- contact section -->
-    <section class="contact-section">
+    <section class="contact-section" id="Contact_section">
       <div class="container">
         <div class="row text-center ">
           <div class="col-12 col-md-12">
@@ -528,7 +558,7 @@
           <div class="col-12 col-mb-12">
             <div class="smallDiv mt-4"></div>
             <div class="largeDiv">
-              <div class="row"> 
+              <div class="row pt-2"> 
                 <div class="col-12 col-md-4 col-lg-4">
                   <ul style="text-align: left; color: #fff;">
                     <li > <h5>  phone </h5></li>
@@ -552,10 +582,10 @@
                   </ul>
                 </div>
 
-                <div class="col-12 col-md-8 col-lg-8">
+                <div class="col-12 col-md-8 col-lg-8 pt-3">
                   <div class="form-box">
                     <form action=""  >
-                      <div class="mb-2 ">
+                      <div class="mb-2 pt-3">
                         
                         <input type="text" class="form-control"  placeholder="Enter Your name">
                         
@@ -666,7 +696,7 @@
     <!-- partical -->
     <script src="./resources/js/particles.min.js"></script>
     <!-- counter -->
-     <!-- <script src="./resources/js/countfect.min.js"></script> -->
+     <script src="./resources/js/countfect.min.js"></script>
      <!-- jancy box js -->
      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!-- Custom js -->
