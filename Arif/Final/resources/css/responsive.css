@@ -1,0 +1,51 @@
+@media only screen and (max-width: 480px) {
+  #contact .bg {
+    padding: 0;
+    text-align: center;
+    height: 100%;
+  }
+  #contact .bg_content {
+    left: 0;
+    position: inherit;
+  }
+  #contact .contact_media {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+  #contact .socal_links {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+  #contact form {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 380px) and (max-width: 575px) {
+  #contact .bg {
+    padding: 0;
+    text-align: center;
+    height: 100%;
+  }
+  #contact .bg_content {
+    left: 0;
+    position: inherit;
+  }
+  #contact .contact_media {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+  #contact .socal_links {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 80px;
+  }
+  #contact form {
+    margin-top: 5px;
+  }
+}
+/*@media (min-width:576px) and (max-width:767px){*/
+
+/*}*/
