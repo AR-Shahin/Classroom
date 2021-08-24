@@ -129,3 +129,70 @@ h4 {
     transform: scale(0.98);
   }
 }
+
+#contact {
+  margin-top: 25px;
+  position: relative;
+}
+#contact .bg {
+  padding: 60px 0;
+  height: 510px;
+}
+#contact .bg_content {
+  padding: 0px;
+  background: red;
+  position: absolute;
+  left: 5%;
+  color: #fff;
+}
+#contact .bg_content h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0;
+}
+#contact .bg_content span {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0;
+}
+#contact .contact_media {
+  margin: 5px 0;
+}
+#contact .socal_links {
+  margin-right: 100px;
+}
+#contact .socal_links ul {
+  display: flex;
+  margin-top: 15px;
+}
+
+#contact .socal_links ul li {
+  margin: 0 5px;
+  width: 50px;
+  padding: 10px 15px;
+  background: #5e89e3;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.6s;
+}
+#contact .socal_links ul li:hover {
+  transform: scale(0.9);
+}
+#contact .socal_links ul li a {
+  color: #fff;
+}
+#contact .socal_links ul li:first-child {
+  margin-left: 0;
+}
+#contact form {
+  padding-top: 15px;
+}
+#contact .form-control::placeholder {
+  font-size: 12px;
+}
+#contact form > div {
+  margin: 15px 0;
+}
