@@ -12,7 +12,9 @@ $('.selector').animatedHeadline({
       //animationType: 'push'
 });
 
-
+$('.popup-youtube').magnificPopup({
+    type: 'iframe'
+  });
 
 particlesJS('particles-js',
   
