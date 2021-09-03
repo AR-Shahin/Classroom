@@ -136,3 +136,22 @@ particlesJS('particles-js',
   }
 
 );
+
+
+
+let navTwo = $('#navTwo')
+let navOne = $('#navOne')
+
+navTwo.hide()
+
+$(window).scroll(function(){
+    let count = $(this).scrollTop()
+    $('#test').text(count)
+    if(count < 100){
+        navTwo.fadeOut()
+        navOne.fadeIn()
+    }else{
+        navTwo.fadeIn()
+        navOne.fadeOut()
+    }
+})

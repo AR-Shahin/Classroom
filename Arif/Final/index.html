@@ -27,11 +27,56 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/responsive.css">
     <title>Final Project</title>
+    <style>
+        #test{
+            height: 50px;
+            width: 50px;
+            background: red;
+            position: fixed;
+            left: 0;
+            top: 50%;
+        }
+    </style>
   </head>
   <body>
+      <div id="test"></div>
     <!-- Navbar  -->
     <div class="overflow" style="overflow: hidden;">
-    <nav class="navbar navbar-expand-lg our_navbar ">
+    <nav class="navbar navbar-expand-lg our_navbar " id="navOne">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./resources/img/logo.png" alt="logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent" style="text-align: right;">
+            <ul class="navbar-nav text-right mb-lg-0" style="margin-left: auto;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Programming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: aqua;" id="navTwo">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="./resources/img/logo.png" alt="logo" class="logo">
