@@ -27,11 +27,56 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/responsive.css">
     <title>Final Project</title>
+    <style>
+        #test{
+            height: 50px;
+            width: 50px;
+            background: red;
+            position: fixed;
+            left: 0;
+            top: 50%;
+        }
+    </style>
   </head>
   <body>
+      <div id="test"></div>
     <!-- Navbar  -->
     <div class="overflow" style="overflow: hidden;">
-    <nav class="navbar navbar-expand-lg our_navbar fixed-top">
+    <nav class="navbar navbar-expand-lg our_navbar " id="navOne">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./resources/img/logo.png" alt="logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent" style="text-align: right;">
+            <ul class="navbar-nav text-right mb-lg-0" style="margin-left: auto;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Programming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color: aqua;" id="navTwo">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="./resources/img/logo.png" alt="logo" class="logo">
@@ -305,6 +350,28 @@
             </div>
         </section>
     </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+              <a href="https://www.youtube.com/watch?v=N6Zg8Q-jKNI" class="popup-youtube" >  <img src="./resources/img/portfolio/port1.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-md-3">
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <a href="https://www.youtube.com/watch?v=N6Zg8Q-jKNI" class="popup-youtube" >
+                    <img src="./resources/img/gallery/img.jpg" alt="" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dignissimos et id unde quo assumenda recusandae sapiente, aspernatur nemo, explicabo vero error sequi fugiat debitis? Libero, tempora? Quo laudantium est facilis minima delectus magnam odio aliquid nisi qui dolorum sunt culpa quia, vel accusantium quidem eius, cupiditate pariatur excepturi reiciendis facere atque harum iste! Quidem enim voluptas officia cupiditate eum ipsum consectetur fuga, atque sed, eveniet rerum beatae id minus culpa eos cumque, commodi in itaque velit debitis? Omnis cum repellat enim! Velit, nobis magnam similique incidunt quidem dicta doloremque dignissimos dolorum quaerat sequi iure quasi at dolore beatae ipsum?
     <!-- End Navbar -->
     <!-- Bootstrap -->
